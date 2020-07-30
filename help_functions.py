@@ -15,7 +15,7 @@ FFMPEG_PATH = "bin/ffmpeg.exe"
 AUDIO_FOLDER = "audio"
 PHOTOS_FOLDER = "photos"
 detector = dlib.get_frontal_face_detector()
-
+API_TOKEN = ''
 
 def convert_voice_file(old_file_name):
     new_file_name = old_file_name.replace(".ogg", ".wav")
